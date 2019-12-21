@@ -203,20 +203,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-@media only screen and (max-width: 500px) {
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  form button {
-    margin-top: 10px;
-    margin-right: 50px;
-    margin-left: auto;
-  }
-  .main-info h2 {
-    font-size: 1rem;
-  }
-}
 @media only screen and (max-width: 800px) {
   .login form {
     display: flex;
@@ -236,5 +222,22 @@ table {
   }
   .main-info img {
     height: 200px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  form button {
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: auto;
+  }
+  .main-info h2 {
+    font-size: 1rem;
+  }
+  .main-info img {
+    max-width: 200px;
   }
 }
