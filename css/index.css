@@ -1,0 +1,243 @@
+body {
+  background-color: #39A8A1;
+}
+body .main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+body .main-info h2 {
+  font-family: 'Lakki Reddy', cursive;
+  font-size: 2.5rem;
+  padding-top: 1rem;
+}
+body .login {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+body .login label {
+  margin: 10px;
+  font-size: 1.2rem;
+}
+body .login input {
+  border: none;
+  box-shadow: 2px 2px;
+  border-top: 1px solid white;
+  height: 20px;
+  outline: none;
+}
+body .login button {
+  width: 150px;
+  height: 30px;
+  background: #c4c3e9;
+  border-radius: 5px;
+  border: 2px solid black;
+  color: black;
+  font-weight: bold;
+  box-shadow: 3px 3px gray;
+  outline: none;
+  margin-left: 50px;
+}
+body .login button:hover {
+  cursor: pointer;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+  background: hsl(220, 34%, 71%);
+  font-size: 2rem;
+  font-family: b612, mono, monospace;
+  height: 10vh;
+}
+header nav h1 {
+  margin-left: 2rem;
+}
+header nav .signup-btn {
+  width: 150px;
+  height: 30px;
+  background: #c4c3e9;
+  border-radius: 5px;
+  border: 2px solid black;
+  color: black;
+  font-weight: bold;
+  box-shadow: 3px 3px gray;
+  outline: none;
+  margin-right: 2rem;
+}
+header nav .signup-btn:hover {
+  cursor: pointer;
+  width: 155px;
+  height: 26px;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+@media only screen and (max-width: 800px) {
+  .login form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .login form input {
+    width: 300px;
+  }
+  .login form button {
+    margin-right: 50px;
+    margin-top: 10px;
+  }
+  .main-info .phrase {
+    font-size: 2rem;
+  }
+  .main-info img {
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  form button {
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: auto;
+  }
+  .main-info h2 {
+    font-size: 1rem;
+  }
+  .main-info img {
+    max-width: 200px;
+  }
+}

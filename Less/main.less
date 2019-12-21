@@ -1,0 +1,41 @@
+  body {
+    background-color: #39A8A1;
+
+    .main-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      padding: 20px;
+
+      h2 {
+        font-family: @funFont;
+        font-size: 2.5rem;
+        padding-top: 1rem;
+      }
+    }
+    .login{
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      label{
+        margin: 10px;
+        font-size: 1.2rem;
+      }
+      input{
+        border: none;
+        box-shadow: 2px 2px;
+        border-top: 1px solid white;
+        height: 20px;
+        outline: none;
+      }
+      button{
+        .button;
+        margin-left: 50px;
+        &:hover{
+          cursor: pointer;
+        }
+      }
+    }
+  }
